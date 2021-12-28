@@ -22,7 +22,7 @@
  
  Credits :
   * -> Anatik572 - Script creator 
-  * -> <img width="35" src="https://raw.githubusercontent.com/Anatik572/KeepSafe/main/723661683234439200.png"> TrackZone - Person who found the name `KeepSafe`
+  * -> TrackZone - Person who found the name `KeepSafe`
  
  Support : 
   * -> Give me a little star to support me 
