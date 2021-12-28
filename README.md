@@ -23,3 +23,9 @@
  Credits :
   * -> Anatik572 - Script creator 
   * -> TrackZone - Person who found the name `KeepSafe`
+ 
+ Support : 
+  * -> Give me a little star to support me 
+  * -> Donation BTC `3B9rd1Zck9U8K5EkW59ijFEc5bziMs88Et`
+  /!\ You don't have to do it, this is just a means of support 
+  /!\ Vous n'êtes pas obligé de le faire, c'est juste un moyen de soutien. 
