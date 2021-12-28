@@ -8,5 +8,5 @@
 
  Dependencies :
   * [fs](https://www.npmjs.com/package/fs "lien")
-  * nodejs-tail
-  * shell_exec
+  * [nodejs-tail](https://www.npmjs.com/package/nodejs-tail "lien")
+  * [shell_exec](https://www.npmjs.com/package/shell_exec "lien")
