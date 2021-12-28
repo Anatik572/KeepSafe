@@ -1,5 +1,4 @@
 # KeepSafe
--
  Description :
    * -> A Node-JS script to blacklist malicious ips from your nginx servers ( layer 7 protection )
    * -> Un script Node-JS pour blacklister les adresses IP malveillantes de votre serveur nginx ( protection layer 7).
