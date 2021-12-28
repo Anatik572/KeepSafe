@@ -13,8 +13,7 @@ cd keepsafe && npm install
 ```
 <br>
 Directory : nginx <br>
-path : /ect/nginx<br>
-## in the above directory you just have to put the 2 files in the destination file 
-<br>
+path : /ect/nginx<br><br>
+in the above directory you just have to put the 2 files in the destination file <br>
 
 ### Then as soon as you have a ddos attack you just need to launch the index.js
