@@ -16,4 +16,4 @@ Directory : nginx <br>
 path : /ect/nginx<br>
 **in the above directory you just have to put the 2 files in the destination file**<br>
 
-###then as soon as you have a ddos attack you just need to launch the index.js
+### Then as soon as you have a ddos attack you just need to launch the index.js
