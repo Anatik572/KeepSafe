@@ -3,7 +3,7 @@
    * -> A Node-JS script to blacklist malicious ips from your nginx servers ( layer 7 protection )
    * -> Un script Node-JS pour blacklister les adresses IP malveillantes de votre serveur nginx ( protection layer 7)
 
- Demo : 
+ Demo (An attack in real time) : 
 
  ![alt text](https://github.com/Anatik572/KeepSafe/blob/main/b613c4eac1052fb1b5ea1a7bced03acd.gif?raw=true)
 
