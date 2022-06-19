@@ -102,7 +102,6 @@ try {
 					if (found[8] == null) return false;
 
 					AddIpToVerif(found_ip[0], found[8].split('?')[0]); // ip | path     
-
 				}
 			}
 		}
