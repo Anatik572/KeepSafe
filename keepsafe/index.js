@@ -30,7 +30,7 @@ function BanIP(ip) {
 				};
 			}
 		}
-	});
+	}); // cc
 	if (already_banned == true) {
 		//console.log(ip);
 		setTimeout(function () {
