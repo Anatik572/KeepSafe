@@ -78,7 +78,6 @@ function AddIpToVerif(ip, path) {
 		}
 	});
 
-
 	if (tableau_ip[ip].count > 9 && is_ok == true) {
 		BanIP(ip);
 	}
