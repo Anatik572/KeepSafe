@@ -30,7 +30,6 @@
  
  Support : 
   * -> Give me a little star to support me 
-  * -> Donation BTC `bc1qjy6j8lkztqmm4ajknawvl6v5fuh8zjry3rphph`
   
   /!\ You don't have to do it, this is just a means of support <br>
   /!\ Vous n'êtes pas obligé de le faire, c'est juste un moyen de soutien. 
