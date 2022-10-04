@@ -6,7 +6,7 @@ const blacklist_file = '/etc/nginx/blacklist.conf';
 const tail = new Tail(access_log);
 const tableau_ip = [];
 const tableau_ip_banned = [];
-// mdd
+
 function getRndInteger(min, max) {
 	return Math.floor(Math.random() * (max - min)) + min;
 }
