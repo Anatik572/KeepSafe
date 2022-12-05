@@ -1,0 +1,93 @@
+{
+    "access_log": "/var/log/nginx/access.log",
+    "blacklist_file": "/etc/nginx/blacklist.conf",
+    "alert": {
+        "enabled": false,
+        "alert_ip": 5,
+        "discord": {
+            "webhook": "x",
+            "embeds": [
+                {
+                    "color": 16729344,
+                    "author": {
+                        "name": "u/{{Author}}",
+                        "url": "https://www.reddit.com/user/{{Author}}",
+                        "icon_url": "https://avatar-resolver.vercel.app/reddit/{{Author}}"
+                    },
+                    "title": "<<<{{Title}}>>>",
+                    "url": "{{PostURL}}",
+                    "image": {
+                        "url": "{{ImageURL}}"
+                    },
+                    "footer": {
+                        "text": "r/{{Subreddit}} • Posted at {{PostedAt}}"
+                    }
+                }
+            ]
+        }
+    },
+    "modules": [
+        "nodejs-tail",
+        "fs",
+        "chalk@4.1.2",
+        "readline"
+    ],
+    "firewall": [
+        {
+            "name": "torpedo",
+            "enabled": true,
+            "path": "/torpedo",
+            "ratelimit": 5,
+            "ratelimit_duration": 60,
+            "ratelimit_ban": 10
+        },
+        {
+            "name": "blacklist",
+            "enabled": true,
+            "path": "/boken/pd.php",
+            "ratelimit": 5,
+            "ratelimit_duration": 20,
+            "ratelimit_ban": 10
+        },
+        {
+            "name": "/boken/api.php",
+            "enabled": true,
+            "path": "/boken/api.php",
+            "ratelimit": 5,
+            "ratelimit_duration": 20,
+            "ratelimit_ban": 10
+        },
+        {
+            "name": "torpedo2",
+            "enabled": true,
+            "path": "/torpedo2",
+            "ratelimit": 5,
+            "ratelimit_duration": 60,
+            "ratelimit_ban": 10
+        },
+        {
+            "name": "torpedo2",
+            "enabled": true,
+            "path": "/torpedo2",
+            "ratelimit": 5,
+            "ratelimit_duration": 60,
+            "ratelimit_ban": 10
+        },
+        {
+            "name": "caca",
+            "enabled": true,
+            "path": "/boken.php",
+            "ratelimit": "5",
+            "ratelimit_duration": "90",
+            "ratelimit_ban": "10"
+        },
+        {
+            "name": "firewall",
+            "enabled": true,
+            "path": "boken.php",
+            "ratelimit": "54",
+            "ratelimit_duration": "54",
+            "ratelimit_ban": "34"
+        }
+    ]
+}
