@@ -8,8 +8,8 @@
  ![alt text](https://github.com/Anatik572/KeepSafe/blob/main/b613c4eac1052fb1b5ea1a7bced03acd.gif?raw=true)
 
  Installation :
-   * -> Put the contents of the `nginx` directory in ``/ect/nginx`` and create a directory in the root file of your machine to install the modules and run your script during a layer 7 attack 
-   * -> Mettez le contenu du répertoire `nginx` dans ``/ect/nginx`` et créez un répertoire à la racine de votre machine pour installer les modules et exécuter votre script lors d'une attaque de couche 7 
+   * -> create a directory in the root file of your machine to install the modules with setup.js and run your script during a layer 7 attack 
+   * -> créez un répertoire à la racine de votre machine pour installer les modules avec setup.js et exécuter votre script lors d'une attaque de couche 7 
   
  Information :
    * -> This script is a bit old you have the right to modify it while working on my repository you have no right to re-publish it on your github as creator this script is licensed under `GNU General Public License v3.0`
@@ -22,7 +22,7 @@
  Dependencies npm :
   * [fs](https://www.npmjs.com/package/fs "lien")
   * [nodejs-tail](https://www.npmjs.com/package/nodejs-tail "lien")
-  * [shell_exec](https://www.npmjs.com/package/shell_exec "lien")
+  * [chalk](https://www.npmjs.com/package/chalk "lien")
  
  Credits :
   * -> Anatik572 - Script creator 
