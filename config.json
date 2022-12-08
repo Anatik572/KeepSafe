@@ -1,31 +1,6 @@
 {
     "access_log": "/var/log/nginx/access.log",
     "blacklist_file": "/etc/nginx/blacklist.conf",
-    "alert": {
-        "enabled": false,
-        "alert_ip": 5,
-        "discord": {
-            "webhook": "x",
-            "embeds": [
-                {
-                    "color": 16729344,
-                    "author": {
-                        "name": "u/{{Author}}",
-                        "url": "https://www.reddit.com/user/{{Author}}",
-                        "icon_url": "https://avatar-resolver.vercel.app/reddit/{{Author}}"
-                    },
-                    "title": "<<<{{Title}}>>>",
-                    "url": "{{PostURL}}",
-                    "image": {
-                        "url": "{{ImageURL}}"
-                    },
-                    "footer": {
-                        "text": "r/{{Subreddit}} • Posted at {{PostedAt}}"
-                    }
-                }
-            ]
-        }
-    },
     "modules": [
         "nodejs-tail",
         "fs",
